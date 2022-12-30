@@ -1,0 +1,39 @@
+
+
+###Components
+-------------
+
+Order summary component
+QR code component
+NFT preview card component
+Product preview card component
+Profile card component
+Stats preview card component
+The 3-column preview card component
+Fylo data storage component
+Single-price grid component
+
+###Sections:
+-----------
+
+Testimonials grid section
+Social proof section
+Four card feature section
+
+###Illustration:
+----------------
+Chat app CSS illustration
+
+###Landing page:
+---------------
+Clipboard landing page
+Huddle landing page with alternating feature blocks
+Huddle landing page with a single introductory section
+Fylo landing page with two-column layout
+Huddle landing page with curved sections
+Skilled e-learning landing page
+Suite landing page
+Art gallery website
+Equalizer landing page
+Meet landing page
+Type master pre-launch landing page
