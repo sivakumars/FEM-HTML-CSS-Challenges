@@ -8,8 +8,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github pages](https://sivakumars.github.io/FEM-HTML-CSS-Challenges/qr-code-component-main/)
+- Live Site URL: [github repo](https://github.com/sivakumars/FEM-HTML-CSS-Challenges/tree/main/qr-code-component-main)
 
 ## My process
 
@@ -32,6 +32,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Continued development
 
 - Estimation and timed development with periodic commits to github
+- Learn more about accessibility.
 
 ### Useful resources
 
