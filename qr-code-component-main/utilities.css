@@ -1,0 +1,7 @@
+.box-shadow{
+  --shadow-color: 219deg 14% 32%;
+  box-shadow: 0.7px 0.7px 1.1px hsl(var(--shadow-color) / 0.11),
+  2.2px 2.3px 3.6px -0.8px hsl(var(--shadow-color) / 0.11),
+  5.6px 5.7px 9px -1.7px hsl(var(--shadow-color) / 0.11),
+  13.6px 13.9px 21.9px -2.5px hsl(var(--shadow-color) / 0.11);
+}

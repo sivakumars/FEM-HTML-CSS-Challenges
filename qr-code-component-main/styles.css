@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700;900&display=swap');
+@import url('./reset.css');
+
+:root{
+  --font-family: 'Lato', sans-serif;
+  --font-size-body: 0.875rem;
+  --font-size-title: 1.2rem;
+  
+  --fw-500: 500;
+  --fw-900: 900;
+
+  --color-primary: hsl(218, 44%, 22%);
+  --color-secondary: hsl(220, 15%, 55%);
+  --color-tertiary: hsl(212, 45%, 89%);
+  --color-background: hsl(0, 0%, 100%);
+}
+
+
+body {
+  background-color: var(--color-tertiary);
+  font-family: var(--font-family);
+  font-size: var(--font-size-body);
+  height: 100vh;
+}
+
+h3{
+  font-size: var(--font-size-title);
+  font-weight: var(--fw-900);
+  color: var(--color-primary);
+}
+
+p{
+  font-weight: var(--fw-500);
+  color: var(--color-secondary);
+}

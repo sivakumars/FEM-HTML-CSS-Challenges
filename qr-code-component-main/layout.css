@@ -1,0 +1,13 @@
+.grid-center-item{
+  display: grid;
+  place-content: center;
+  height: 100%;
+}
+
+.stack-card > * + *{
+  margin-top: 1.5rem;
+}
+
+.stack-description > * + *{
+  margin-top: 1.35rem;
+}

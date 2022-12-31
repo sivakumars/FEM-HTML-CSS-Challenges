@@ -1,0 +1,30 @@
+.card {
+  
+  --border-radius: 1rem;
+  --line-height: 1.3;
+  width: calc(var(--font-size-body) * 22);
+  background-color:var(--color-background);
+  padding: 1rem;
+  border-radius: var(--border-radius);
+}
+
+.card__image {
+  border-radius: calc(var(--border-radius) / 2);
+  overflow: hidden;
+}
+
+.card__description {
+  padding: 0 0.875rem;
+  text-align: center;
+}
+
+.card__description h3{
+  line-height: var(--line-height);
+  letter-spacing: 0.25px;
+}
+
+.card__description p{
+  line-height: calc(var(--line-height) * 1.1);
+  letter-spacing: 0.09px;
+  padding-bottom: 1.5rem;
+}
