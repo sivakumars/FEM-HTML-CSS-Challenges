@@ -27,7 +27,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - Code organization for CSS.
 - CSS custom properties for cascading variables.
-- box-shadow techniques - Keep the lightness around 40% to 50% , so the color has broader saturation operations available.
+- box-shadow techniques - Keep the lightness around 40% to 50% , so the color has broader saturation options available.
 
 ### Continued development
 
