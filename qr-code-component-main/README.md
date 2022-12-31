@@ -33,6 +33,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - Estimation and timed development with periodic commits to github.
 - Use a task runner to minify the CSS files to one file. (Didn't do it for this project, since it was just a card component)
+- structure the HTML page to be fully valid. (article element should have atleast one header).
 - Learn more about accessibility.
 
 ### Useful resources
