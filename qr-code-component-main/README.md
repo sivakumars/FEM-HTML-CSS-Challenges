@@ -8,8 +8,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [github pages](https://sivakumars.github.io/FEM-HTML-CSS-Challenges/qr-code-component-main/)
-- Live Site URL: [github repo](https://github.com/sivakumars/FEM-HTML-CSS-Challenges/tree/main/qr-code-component-main)
+- Live site URL: [github pages](https://sivakumars.github.io/FEM-HTML-CSS-Challenges/qr-code-component-main/)
+- Solution URL: [github repo](https://github.com/sivakumars/FEM-HTML-CSS-Challenges/tree/main/qr-code-component-main)
 
 ## My process
 
@@ -31,7 +31,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Continued development
 
-- Estimation and timed development with periodic commits to github
+- Estimation and timed development with periodic commits to github.
+- Use a task runner to minify the CSS files to one file. (Didn't do it for this project, since it was just a card component)
 - Learn more about accessibility.
 
 ### Useful resources
