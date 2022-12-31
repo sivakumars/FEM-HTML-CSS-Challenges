@@ -5,9 +5,9 @@
 }
 
 .stack-card > * + *{
-  margin-top: 1.5rem;
+  margin-block-start: 1.5rem;
 }
 
 .stack-description > * + *{
-  margin-top: 1.35rem;
+  margin-block-start: 1.35rem;
 }
