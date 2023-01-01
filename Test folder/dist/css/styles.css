@@ -1,1 +1,1 @@
-h1{color:red}h2{color:green}*{box-sizing:border-box}*,::after,::before{margin:0;padding:0}p{margin-block:20px;border:1px dashed #4682b4}p{font-size:24px}h3{color:coral}
+h1{color:red}h2{color:green}h6{color:#4682b4}p{columns:3}*{box-sizing:border-box}*,::after,::before{margin:0;padding:0}p{margin-block:20px;border:1px dashed #4682b4}p{font-size:24px}h3{color:coral}

@@ -5,3 +5,11 @@ h1 {
 h2{
   color: green;
 }
+
+h6{
+  color: steelblue;
+}
+
+p{
+  columns: 3;
+}
