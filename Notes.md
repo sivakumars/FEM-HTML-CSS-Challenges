@@ -4,6 +4,8 @@
 
 - Each subfolder is a challenge. All the configuration files for each challenge is within its folder.
 
+- Files in the parent directory can't be added from the subfolders? Gotta check why!
+
 - using gulp, a task runner, to minify and concat the style files for each of those challenges.
 
 - updating the `.gitignore` file to ignore `node_modules` in the entire repository by adding this line  `/**/node_modules` .
