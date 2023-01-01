@@ -1,3 +1,5 @@
+> Just experimenting with gulp
+
 {
   "name": "sass-practice",
   "version": "1.0.0",
