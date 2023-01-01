@@ -8,24 +8,27 @@
   <link rel="stylesheet" href="dist/styles/styles.css">
 </head>
 <body>
-
-   <div>
-    Order Summary
-
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-   </div>
-
-   <p>
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic possimus eligendi necessitatibus architecto animi maiores, ratione officia nam recusandae tempora maxime repellendus itaque nihil. Pariatur tempore distinctio quo quis voluptatem ratione? Beatae ea ratione adipisci hic quia ipsa assumenda quidem!
-   </p>
+  <main class="center-content">
+    <article class="flex-column | order-card">
+      <h3 class="order-card-title">Order Summary</h3>
+      <div class="order-card-details">
+        <p class="order-card-description | text-align-center">You can now listen to millions of songs, audiobooks, and podcasts on any 
+          device anywhere you like!</p>
+        <section class="flex-row | order-card-plan">
+          <img src="images/icon-music.svg" alt="Music icon" >
+          <dl>
+            <dt class="plan">Annual Plan</dt>
+            <dd class="price">$59.99/year</dd>
+          </dl>
+          <button class="push-right secondary-btn link-btn">Change</button>
+        </section>
+        <p class="flex-column | btn-group">
+          <button class="primary-btn | box-shadow">Proceed to Payment</button>
+          <button class="secondary-btn">Cancel Order</button>
+        </p>
+      </div>
+      <img src="images/illustration-hero.svg" alt="Card image" class="card-img">
+    </article>
+  </main>
 </body>
 </html>

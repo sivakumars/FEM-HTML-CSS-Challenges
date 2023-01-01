@@ -1,7 +1,98 @@
-p{
-  columns: 3;
+.order-card {
+  font-size: calc(var(--font-size-body) * 0.9);
+  background-color: var(--brand-neutral-100);
+  width: clamp(20rem, calc(1rem + 50vw), 23rem);
+  border-radius: 1rem;
+  overflow: hidden;
 }
 
-div{
-  background-color: peachpuff;
+.order-card-title{
+  margin-block-start: 2.2rem;
+  font-size: 1.5em;
+  font-weight: var(--font-weight-900);
+}
+
+.order-card-details{
+  padding: 0.8rem 1.6rem 2rem;
+}
+
+.order-card-description{
+  color: var(--brand-neutral-500);
+  opacity: 0.7;
+}
+
+.order-card-plan{
+  background-color: var(--brand-neutral-300);
+  border-radius: 0.5em;
+  padding: 1.2em 1.4em;
+}
+
+.order-card-plan .plan{
+  font-weight: var(--font-weight-900);
+  color: var(--brand-neutral-500);
+}
+
+.order-card-plan .price{
+  opacity: 0.7;
+}
+
+.order-card-plan > img {
+  width: 2.75em;
+  height: 2.75em;
+}
+
+.order-card-plan button{
+  color: var(--brand-hue-500);
+  text-decoration: underline;
+  text-underline-offset: 1.2px;
+  opacity: 1;
+  transition: all 300ms ease-out;
+}
+
+.order-card-plan button:hover{
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.card-img {
+  order: -1;
+}
+
+.order-card-details > * + *{
+  margin-block-start: 1.6rem;
+}
+
+/* Buttons */
+
+.btn-group > * + * {
+  margin-block-start: 1rem;
+}
+
+.primary-btn{
+  width: 100%;
+  border: none;
+  padding-block: 0.6em;
+  border-radius: 0.5em;
+  background-color: var(--brand-hue-500);
+  color: var(--brand-neutral-300);
+  font-weight: var(--font-weight-700);
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  opacity: 0.75;
+}
+
+.secondary-btn{
+  background: none;
+  border: none;
+  font-size: 1em;
+  color: var(--brand-neutral-500);
+  font-weight: var(--font-weight-700);
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.secondary-btn:hover{
+  opacity: 1;
 }
