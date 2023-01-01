@@ -19,7 +19,7 @@
 body{
   height: 100vh;
   background-image: url(../../images/pattern-background-desktop.svg);
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-color: var(--brand-hue-300);
 
   font-family: var(--font-family);
