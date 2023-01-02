@@ -11,10 +11,33 @@
   margin-top: -10px;
 }
 
-.card .card-image{
+.card-title:hover{
+  cursor: pointer;
+  color: var(--primary-hue-two);
+}
+
+.card-image{
+  position: relative;
   order: -1;
   border-radius: 0.5rem;
   overflow: hidden;
+  cursor: pointer;
+}
+
+.card-image:hover::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--primary-hue-two);
+  opacity: 0.5;
+}
+
+.card-image:hover::after{
+  content: url('../../images/icon-view.svg');
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .card-caption em{
