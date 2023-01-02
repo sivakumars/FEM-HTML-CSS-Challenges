@@ -24,6 +24,7 @@
 
  - Need to have better estimates for the project.
  - Went down the rabbit hole of colors. Save the exploration of deeper concepts after the challenge is finished. 
+ - Add watch tasks to the gulp file in addition to minifying css files.
 
 ### Useful resources
 
