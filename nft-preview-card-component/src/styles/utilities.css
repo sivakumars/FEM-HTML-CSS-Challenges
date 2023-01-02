@@ -4,6 +4,5 @@
 
 .border-top{
   /* Use better ways when you do this with Sass */
-  --border-color: 215, 51%, 70%; 
   border-top: 0.25px solid hsla(var(--border-color), 0.5);
 }

@@ -1,7 +1,7 @@
 .card{
   --space: 1.2rem;
+  --border-color: 215, 51%, 70%; 
   background-color: var(--card-surface-color);
-  /* width: clamp(18rem, 1rem + 50vw, 20rem); */
   width: 20rem;
   border-radius: 1rem;
   padding: var(--space, 1rem);

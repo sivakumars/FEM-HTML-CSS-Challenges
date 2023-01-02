@@ -28,6 +28,7 @@
 ### Continued development
 
  - I need to study more SVG styling on how to customize SVG images
+ - Need more clarity on the layout process - context and internal items.
  - Estimates should be more precise.
 
 ### Useful resources
