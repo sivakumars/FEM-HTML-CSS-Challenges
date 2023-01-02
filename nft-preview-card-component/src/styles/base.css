@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root{
+  --font-family : 'Outfit', sans-serif;
+  --font-size-body: 1rem;
+
+  --card-title-size: calc(var(--font-size-body) * 1.25);
+  --card-description-size: var(--font-size-body);
+  --card-nft-size: var(--font-size-body);
+  --card-caption-size: calc(var(--font-size-body) * 0.9);
+
+  --card-title-weight: 600;
+  --card-nft-weight: 400;
+  --body-text-weight: 300;
+  --caption-weight: 300;
+
+  --canvas-color: hsl(217, 54%, 11%);
+  --card-surface-color: hsl(216, 50%, 16%);
+  --title-color: hsl(0, 0%, 100%);
+
+  --primary-hue-one: hsl(215, 51%, 70%);
+  --primary-hue-two: hsl(178, 100%, 50%);
+}
+
+body{
+  font-family: var(--font-family);
+  background-color: var(--canvas-color);
+  height: 100vh;
+}
+
+.card-title{
+  font-size: var(--card-title-size);
+  color: var(--title-color);
+}
+
+.card-description{
+  font-size: var(--card-description-size);
+  color: var(--primary-hue-one);
+  font-weight: var(--body-text-weight);
+  letter-spacing : 0.5px;
+}
+
+.card-nft{
+  font-size: var(--card-nft-size);
+  color: var(--primary-hue-two);
+}
+
+.card-caption{
+  font-size: var(--card-caption-size);
+  color: var(--primary-hue-one);
+  font-weight: var(--caption-weight);
+}
+

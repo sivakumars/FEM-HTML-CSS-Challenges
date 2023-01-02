@@ -1,0 +1,30 @@
+.card{
+  --space: 1.2rem;
+  background-color: var(--card-surface-color);
+  /* width: clamp(18rem, 1rem + 50vw, 20rem); */
+  width: 20rem;
+  border-radius: 1rem;
+  padding: var(--space, 1rem);
+}
+
+.card-description{
+  margin-top: -10px;
+}
+
+.card .card-image{
+  order: -1;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.card-caption em{
+  font-style: unset;
+  color: var(--title-color);
+}
+
+.card-avatar{
+  width: 1.5rem;
+  height: 1.5rem;
+  outline: 1px solid var(--title-color);
+  border-radius: 50%;
+}

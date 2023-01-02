@@ -1,0 +1,27 @@
+.grid-center{
+  display: grid;
+  place-content: center;
+  height: 100%;
+}
+
+.stack-l > * + * {
+  margin-top: 1rem;
+}
+
+.flex-row-l {
+ display: flex;
+ gap: 0.5rem;
+ align-items: center;
+}
+
+.flex-row-l.space-between{
+  justify-content: space-between;
+}
+
+.flex-column-l {
+ display: flex;
+ flex-direction: column;
+ gap: var(--space, 1rem);
+}
+
+
