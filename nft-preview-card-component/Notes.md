@@ -25,9 +25,13 @@
 
 - Layout - 15 mins
 
-- components - 10 mins
+- components - 15 mins
 
 - refining details - 5 mins
+
+Estimated time: 45 mins
+
+Actual time: 120 mins!!
 
 #### Fonts
 
