@@ -17,6 +17,7 @@
 }
 
 .order-card-description{
+  padding-inline: 1rem;
   color: var(--brand-neutral-500);
   opacity: 0.7;
 }
