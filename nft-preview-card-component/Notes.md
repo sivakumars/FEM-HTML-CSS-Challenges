@@ -29,7 +29,7 @@
 
 - refining details - 5 mins
 
-Estimated time: 45 mins
+Estimated time: 55 mins
 
 Actual time: 120 mins!!
 
