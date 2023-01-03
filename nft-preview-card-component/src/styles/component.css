@@ -45,6 +45,11 @@
   color: var(--title-color);
 }
 
+.card-caption em:hover{
+  cursor: pointer;
+  color: var(--primary-hue-two);
+}
+
 .card-avatar{
   width: 1.5rem;
   height: 1.5rem;
