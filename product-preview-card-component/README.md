@@ -4,7 +4,7 @@
 
 ### Links
 
-- Live-site URL: [github-pages]()
+- Live-site URL: [github-pages](https://sivakumars.github.io/FEM-HTML-CSS-Challenges/product-preview-card-component/)
 - Code : [github](https://github.com/sivakumars/FEM-HTML-CSS-Challenges/tree/main/product-preview-card-component)
 
 ## My process
