@@ -1,0 +1,73 @@
+.card{
+  --max-width: 37.5rem;
+  --border-radius: 0.5em;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: var(--max-width);
+  border-radius:var(--border-radius);
+  overflow: hidden;
+}
+
+.card-image-frame > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-details{
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--font-body-size) * 1.5);
+  padding: 1.5rem;
+}
+
+.card-category{
+  order: -1;
+}
+
+.card-item{
+  background-color: var(--neutral-color-white);
+  flex-grow: 1;
+  flex-basis: calc( ((var(--max-width) / 2) - 50%) * 999);
+}
+
+.card-price {
+  display: flex;
+  gap: 1.75rem;
+  align-items: center;
+}
+
+.card button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  border: none;
+  background-color: var(--primary-color-one);
+  border-radius: var(--border-radius);
+  padding: 0.8rem 0;
+}
+
+.card button:hover{
+  cursor: pointer;
+  background-color: var(--neutral-color-one);
+}
+
+/* If the card were in a different container other than the viewport, 
+it will still  be responsive and switch from row to column
+
+the following media query is just to simulate any container the card maybe in.
+
+*/
+@media screen and (max-width: 37.5rem) {
+  .card {
+    --font-body-size: 0.85rem;
+    --font-card-title-text: calc(var(--font-body-size) * 2);
+    width: 20rem;
+  }
+
+  .card-details{
+    gap: var(--font-body-size);
+  }
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+:root{
+
+  --font-family-primary: 'Montserrat', sans-serif;
+  --font-family-secondary: 'Fraunces', serif;
+
+  --font-body-size: 0.93rem;
+
+  --font-description-text: var(--font-body-size);
+  --font-category-text: calc(var(--font-body-size) * 0.8);
+  --font-card-title-text: calc(var(--font-body-size) * 2.5);
+  --font-price-text: calc(var(--font-body-size) * 2.25);
+  --font-small-text: calc(var(--font-body-size) * 0.9);
+  --font-button-text: calc(var(var(--font-body-size)) * 0.35);
+
+  --primary-color-one: hsl(158, 36%, 37%);
+  --primary-color-two: hsl(30, 38%, 92%);
+
+  --neutral-color-one: hsl(212, 21%, 14%);
+  --neutral-color-two: hsl(228, 12%, 48%);
+  --neutral-color-white: hsl(0, 0%, 100%);
+
+  --fw-500: 500;
+  --fw-700: 700;
+
+  height: 100vh;
+}
+
+body{
+  font-family: var(--font-family-primary);
+  background-color: var(--primary-color-two);
+  height: 100%;
+}
+
+.card-title{
+  font-family: var(--font-family-secondary);
+  font-size: var(--font-card-title-text);
+  font-weight: var(--fw-700);
+  line-height: 1;
+  letter-spacing: -0.5px;
+  color: var(--neutral-color-one);
+}
+
+.card-category{
+  font-family: var(--font-family-primary);
+  font-size: var(--font-category-text);
+  font-weight: var(--fw-500);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: var(--neutral-color-two);
+}
+
+.card-description{
+  font-family: var(--font-family-primary);
+  font-size: var(--font-body-size);
+  font-weight: var(--fw-500);
+  color: var(--neutral-color-two);
+  line-height: 1.65;
+}
+
+.card-price data {
+  font-family: var(--font-family-secondary);
+  font-size: var(--font-price-text);
+  font-weight: var(--fw-700);
+  color: var(--primary-color-one);
+}
+
+.card-price del{
+  font-family: var(--font-family-primary);;
+  font-size: var(--font-small-text);
+  font-weight: var(--fw-500);
+  color: var(--neutral-color-two);
+}
+
+.card-button{
+  font-family: var(--font-family-primary);;
+  font-size: var(--font-button-text);
+  font-weight: var(--fw-500);
+  color: var(--neutral-color-white);
+}
