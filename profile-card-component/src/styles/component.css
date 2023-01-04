@@ -27,7 +27,7 @@
 }
 
 .card-stats{
-  border-top: 0.25px solid var( --neutral-color);
+  border-top: 0.25px solid var(--border-color);
   padding-block: 1.5rem;
   padding-inline: 2rem;
 }

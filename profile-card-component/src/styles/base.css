@@ -18,6 +18,7 @@
 
   --neutral-color: hsl(0, 0%, 59%);
   --card-surface: hsl(0,0%, 100%);
+  --border-color: hsl(0, 0%, 59%, 0.3);
 }
 
 body{
@@ -30,6 +31,8 @@ ul{
   padding: 0;
   margin: 0;
 }
+
+
 
 /* typography */
 .profile-name span{
