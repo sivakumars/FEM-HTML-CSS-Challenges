@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root{
+  
+  --base-font-size: 1.125rem;
+
+  --font-name-text: var(--base-font-size);
+  --font-location-text: calc(var(--base-font-size) * 0.8);
+  --font-stats-text: calc(var(--base-font-size) * 1.25);
+  --font-stats-desc-text: calc(var(--base-font-size) * 0.7);
+
+  --fw-400: 400;
+  --fw-700: 700;
+
+  --primary-color-one: hsl(185, 75%, 39%);
+  --primary-color-two: hsl(229, 23%, 23%);
+  --primary-color-three: hsl(227, 10%, 46%);
+
+  --neutral-color: hsl(0, 0%, 59%);
+  --card-surface: hsl(0,0%, 100%);
+}
+
+body{
+  height: 100vh;
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: var(--primary-color-one);
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+/* typography */
+.profile-name span{
+  font-size: var(--font-name-text);
+  font-weight: var(--fw-400);
+  color: var(--neutral-color);
+}
+
+.profile-location{
+  font-size: var(--font-location-text);
+  font-weight: var(--fw-400);
+  color: var(--neutral-color);
+}
+
+.card-stats-item span{
+  font-size: var(--font-stats-text);
+  font-weight: var(--fw-700);
+  color: var(--primary-color-two);
+}
+
+.card-stats-item p{
+  font-size: var(--font-stats-desc-text);
+  font-weight: var(--fw-400);
+  color: var(--neutral-color);
+  letter-spacing: 1px;
+}

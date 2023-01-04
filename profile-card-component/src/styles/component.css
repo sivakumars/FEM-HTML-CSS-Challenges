@@ -1,0 +1,41 @@
+.card{
+  background-color: var(--card-surface);
+  max-width: 22.5rem;
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+.card::before{
+  content: url("../../images/bg-pattern-card.svg");
+}
+
+.card > :last-child{
+  margin-top: 1.5rem;
+}
+
+.card-head img{
+  border-radius: 50%;
+  width: 6.75rem;
+  order: -1;
+  outline: 5px solid var(--card-surface);
+  outline-offset: -2px;
+  transform: translateY(-50%);
+}
+
+.card-head .profile-name{
+  margin-block-start: -2.25rem;
+}
+
+.card-stats{
+  border-top: 0.25px solid var( --neutral-color);
+  padding-block: 1.5rem;
+  padding-inline: 2rem;
+}
+
+.card-stats-item{
+  text-align: center;
+}
+
+.profile-name span{
+  margin-inline-start: 0.25em;
+}

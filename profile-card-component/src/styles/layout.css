@@ -1,0 +1,21 @@
+.grid-center{
+  display: grid;
+  height: 100%;
+  place-content: center;
+}
+
+.flex-col-l{
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.flex-col-l.align-center{
+  align-items: center;
+}
+
+
+.grid-3-col{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
