@@ -3,10 +3,11 @@
   max-width: 22.5rem;
   border-radius: 1em;
   overflow: hidden;
+  position: relative;
 }
 
 .card::before{
-  content: url("../../images/bg-pattern-card.svg");
+  content: url('../../images/bg-pattern-card.svg');
 }
 
 .card > :last-child{
@@ -38,4 +39,11 @@
 
 .profile-name span{
   margin-inline-start: 0.25em;
+}
+
+
+@media screen and (max-width:30em){
+  /* .card{
+    width: 20rem;
+  } */
 }

@@ -32,8 +32,6 @@ ul{
   margin: 0;
 }
 
-
-
 /* typography */
 .profile-name span{
   font-size: var(--font-name-text);

@@ -2,6 +2,8 @@
   display: grid;
   height: 100%;
   place-content: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .flex-col-l{
@@ -19,3 +21,34 @@
   display: grid;
   grid-template-columns: repeat(3,1fr);
 }
+
+
+/* background for the container */
+.grid-center::before{
+  content: "";
+  background: url('../../images/bg-pattern-top.svg') no-repeat;
+  background-position: bottom right;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+}
+
+.grid-center::after{
+  content: "";
+  background: url('../../images/bg-pattern-bottom.svg') no-repeat;
+  background-position: top left;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  transform: translate(50%, 50%);
+}
+
+
+
+
+  /* transform: rotate(35deg) translate(-25%, -25%); */
+  /* top: -75%;
+  left: -15%; */
