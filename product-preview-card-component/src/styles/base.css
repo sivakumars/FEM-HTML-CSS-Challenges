@@ -67,14 +67,14 @@ body{
 }
 
 .card-price del{
-  font-family: var(--font-family-primary);;
+  font-family: var(--font-family-primary);
   font-size: var(--font-small-text);
   font-weight: var(--fw-500);
   color: var(--neutral-color-two);
 }
 
 .card-button{
-  font-family: var(--font-family-primary);;
+  font-family: var(--font-family-primary);
   font-size: var(--font-button-text);
   font-weight: var(--fw-500);
   color: var(--neutral-color-white);
