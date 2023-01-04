@@ -12,7 +12,7 @@
   --font-card-title-text: calc(var(--font-body-size) * 2.5);
   --font-price-text: calc(var(--font-body-size) * 2.25);
   --font-small-text: calc(var(--font-body-size) * 0.9);
-  --font-button-text: calc(var(var(--font-body-size)) * 0.35);
+  --font-button-text: calc(var(--font-body-size) * 0.35);
 
   --primary-color-one: hsl(158, 36%, 37%);
   --primary-color-two: hsl(30, 38%, 92%);
