@@ -1,0 +1,61 @@
+.card{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  padding: 3.75em;
+  flex-grow: 1;
+  flex-basis: calc( ( var(--card-width) - calc( 100% / var(--total-cards) ) ) * 999);
+}
+
+.card-sedan{
+  background-color: var(--primary-color-one);
+  --button-color: var(--primary-color-one);
+}
+
+.card-suv{
+  background-color: var(--primary-color-two);
+  --button-color: var(--primary-color-two);
+}
+
+.card-luxury{
+  background-color: var(--primary-color-three);
+  --button-color: var(--primary-color-three);
+}
+
+.button-link{
+  padding: 0.75em 2em;
+  background-color: var(--neutral-color-two);
+  color: var(--button-color);
+  display: inline-block;
+  align-self: flex-start;
+  border-radius: 2em;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+:is(.card-sedan, .card-suv, .card-luxury) .button-link:hover{
+  background-color: transparent;
+  color: var(--neutral-color-two);
+  outline: 0.2em solid var(--neutral-color-two);
+  outline-offset: -0.2em;
+}
+
+.card > :last-child{
+  margin-top: 2.5rem;
+}
+
+.card-icon{
+  width: 4rem;
+  height: 2.5rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-icon:hover{
+  transform: scale(1.5) translate(1em);
+}
+
+@media screen and (max-width: 960px){
+  .card > :last-child{
+    margin-top: 0;
+  }
+}

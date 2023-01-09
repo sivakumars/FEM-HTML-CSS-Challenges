@@ -1,0 +1,26 @@
+.grid-center{
+  display: grid;
+  place-content: center;
+}
+
+.container{
+  --total-cards: 3;
+  --card-width: 20rem;
+  display: flex;
+  flex-direction: row;
+  border-radius: 0.5em;
+  overflow: hidden;
+  flex-wrap: wrap;
+  max-width: calc(3 * var(--card-width));
+}
+
+
+/* for the following situation where the container width is determined based on 
+   the content size,  use SASS or PostCSS to use Custom poperties in media queries */
+@media screen and (max-width: 960px){
+  .container{
+    margin: 2em;
+    width: var(--card-width);
+    overflow: hidden;
+  }
+}
