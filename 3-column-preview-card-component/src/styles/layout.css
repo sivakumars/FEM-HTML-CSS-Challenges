@@ -11,7 +11,7 @@
   border-radius: 0.5em;
   overflow: hidden;
   flex-wrap: wrap;
-  max-width: calc(3 * var(--card-width));
+  max-width: calc(var(--total-cards) * var(--card-width));
 }
 
 
