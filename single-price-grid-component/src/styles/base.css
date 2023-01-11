@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Karla:wght@400;700&display=swap');
+
+:root {
+  --font-family-primary: 'Karla', sans-serif;
+
+  --font-size-body-text: 1rem;
+  --font-size-card-title: 1.5rem;
+  --font-size-card-highlight: 1.125rem;
+
+  --fw-400: 400;
+  --fw-700: 700;
+
+  --color-primary-one: hsl(179, 62%, 43%);
+  --color-primary-two: hsl(71, 73%, 54%);
+
+  --color-neutral-one: hsl(204, 43%, 93%);
+  --color-neutral-two: hsl(218, 22%, 67%);
+  --color-white: hsl(100, 100%, 100%);
+}
+
+body{
+  font-family: var(--font-family-primary);
+  background-color: var(--color-neutral-one);
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+
+/* Typograph styles 
+   TODO: Organize typography better for bigger challenges. 
+*/
+.card-desc p{
+  color: var(--color-neutral-two);
+}
+
+.card-desc p:first-child{
+  font-size: var(--font-size-card-highlight);
+  color: var(--color-primary-two);
+  font-weight: var(--fw-700);
+}
+
+.card-cta :where(p, span){
+  color: var(--color-neutral-one);
+}
+
+.card-cta strong{
+  font-size: calc(var(--font-size-card-title) * 1.5);
+  color: var(--color-white);
+}
+
+.card-title{
+  font-size: var(--font-size-card-title);
+  color: var(--color-primary-one);
+  letter-spacing: -0.5px;
+}
+
+:is(h4, p.card-highlight){
+  font-size: var(--font-size-card-highlight);
+}
+
+.card-info h4{
+  font-size: var(--font-size-card-highlight);
+  color: var(--color-white);
+}
+
+.card-info p{
+  font-size: var(--font-size-body-text);
+  color: var(--color-neutral-one);
+}
+
+
+.card-list li{
+  font-size: calc(var(--font-size-body-text) * 0.9);
+  color: var(--color-neutral-one);
+}
+
+.link-button{
+  text-align: center;
+  padding: 0.75em 1em;
+  background-color: var(--color-primary-two);
+  border-radius: 0.25em;
+  color: white;
+  box-shadow: 0px 2px 10px -7px #000, 0px 5px 14px -14px #000;
+  transition: transform 50ms ease-in-out;
+  width: min(100%, 16rem);
+  align-self: center;
+}
+
+.link-button:is(:hover,:active){
+  cursor: pointer;
+}
+
+.link-button:active{
+  transform: scale(0.8);
+  box-shadow: 0px 4px 3px -4px #000;
+}

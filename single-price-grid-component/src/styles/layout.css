@@ -1,0 +1,35 @@
+.grid-center{
+  display: grid;
+  place-content: center;
+  padding: 2em;
+  min-height: 100vh;
+}
+
+.stack-lg > * + *{
+  margin-top: calc(1.25 * var(--space));
+}
+
+.stack-sm > * + * {
+  margin-top: calc(var(--space) / 1.5);
+}
+
+.flex-row{
+  display: flex;
+}
+
+.flex-row.gap-sm{
+  gap: calc(var(--space) * 0.5);
+}
+
+.flex-row.align-center{
+  align-items: center;
+}
+
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-col.gap-lg{
+  gap: calc(var(--space) * 0.75);
+}

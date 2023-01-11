@@ -1,0 +1,31 @@
+.card{
+  --card-width: 20rem;
+  --columns: 2;
+  --space:1.5em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: clamp(20rem, 90vw, calc(var(--card-width) * var(--columns)));
+}
+
+:is(.card-desc, .card-cta, .card-list){
+  padding: calc(var(--space) * 1.5);
+}
+
+.card-desc{
+  grid-column: 1 / 3;
+  background-color: var(--color-white);
+}
+
+.card-info{
+  grid-column: 1 / 3;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--card-width)), 1fr));
+}
+
+.card-info :is(.card-cta, .card-list){
+  background-color: var(--color-primary-one);
+}
+
+.card-list{
+  opacity: 0.5;
+}
