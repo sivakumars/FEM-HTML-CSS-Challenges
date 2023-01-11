@@ -1,0 +1,7 @@
+.card-shadow{
+  --shadow-color: 218deg 16% 40%;
+  box-shadow: 0.2px 0.3px 0.4px hsl(var(--shadow-color) / 0.36),
+  0.7px 0.9px 1.3px -0.8px hsl(var(--shadow-color) / 0.36),
+  1.9px 2.2px 3.3px -1.7px hsl(var(--shadow-color) / 0.36),
+  4.5px 5.4px 7.9px -2.5px hsl(var(--shadow-color) / 0.36);
+}

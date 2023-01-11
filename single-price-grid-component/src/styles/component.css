@@ -5,6 +5,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: clamp(20rem, 90vw, calc(var(--card-width) * var(--columns)));
+  border-radius: 0.5em;
+  overflow: hidden;
 }
 
 :is(.card-desc, .card-cta, .card-list){
