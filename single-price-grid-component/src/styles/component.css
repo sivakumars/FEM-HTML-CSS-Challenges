@@ -22,10 +22,10 @@
   grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--card-width)), 1fr));
 }
 
-.card-info :is(.card-cta, .card-list){
+.card-info :where(.card-cta, .card-list){
   background-color: var(--color-primary-one);
 }
 
 .card-list{
-  opacity: 0.5;
+  opacity: 0.8;
 }
