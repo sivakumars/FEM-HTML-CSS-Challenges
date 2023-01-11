@@ -1,11 +1,11 @@
 ## Overview
 
-- This is my sixth  FEM challenge
+- This is my seventh  FEM challenge
 
 ### Links
 
-- Live-site URL: [github-pages](https://sivakumars.github.io/FEM-HTML-CSS-Challenges/3-column-preview-card-component/)
-- Code : [github](https://github.com/sivakumars/FEM-HTML-CSS-Challenges/tree/main/3-column-preview-card-component)
+- Live-site URL: [github-pages](https://sivakumars.github.io/FEM-HTML-CSS-Challenges/single-price-grid-component/)
+- Code : [github](https://github.com/sivakumars/FEM-HTML-CSS-Challenges/tree/main/single-price-grid-component)
 
 ## My process
 
